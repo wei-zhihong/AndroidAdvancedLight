@@ -6,13 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_lollipop"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="android5"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_m"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="android6"
+        app:layout_constraintTop_toBottomOf="@id/btn_lollipop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_n"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="android7"
+        app:layout_constraintTop_toBottomOf="@id/btn_m"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_o"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="android8"
+        app:layout_constraintTop_toBottomOf="@id/btn_n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_p"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="android9"
+        app:layout_constraintTop_toBottomOf="@id/btn_o"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_q"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="android10"
+        app:layout_constraintTop_toBottomOf="@id/btn_p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_r"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="android11"
+        app:layout_constraintTop_toBottomOf="@id/btn_q"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
