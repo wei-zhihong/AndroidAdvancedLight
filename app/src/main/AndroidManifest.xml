@@ -14,12 +14,16 @@
         android:theme="@style/Theme.AdvancedLight"
         tools:targetApi="31">
         <activity
+            android:name=".lollipop.CardViewTestActivity"
+            android:exported="false" />
+        <activity
             android:name=".lollipop.RecyclerViewTestActivity"
             android:exported="false" />
         <activity
             android:name=".lollipop.LollipopActivity"
             android:exported="false" />
-        <activity android:name=".lollipop.RecyclerViewTestTwoActivity"
+        <activity
+            android:name=".lollipop.RecyclerViewTestTwoActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

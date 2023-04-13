@@ -21,5 +21,8 @@ class LollipopActivity : AppCompatActivity() {
         binding.btnRvTestTwo.setOnClickListener{
             startActivity(Intent(this, RecyclerViewTestTwoActivity::class.java))
         }
+        binding.btnCvTest.setOnClickListener{
+            startActivity(Intent(this, CardViewTestActivity::class.java))
+        }
     }
 }
