@@ -24,5 +24,8 @@ class LollipopActivity : AppCompatActivity() {
         binding.btnCvTest.setOnClickListener{
             startActivity(Intent(this, CardViewTestActivity::class.java))
         }
+        binding.btnNcTest.setOnClickListener {
+            startActivity(Intent(this, NotificationTestActivity::class.java))
+        }
     }
 }

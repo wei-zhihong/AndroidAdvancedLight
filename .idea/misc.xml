@@ -6,7 +6,9 @@
         <entry key="app/src/main/res/layout/activity_card_view_test.xml" value="0.2722320556640625" />
         <entry key="app/src/main/res/layout/activity_lollipop.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.36427459716796873" />
+        <entry key="app/src/main/res/layout/activity_notification_test.xml" value="0.15625" />
         <entry key="app/src/main/res/layout/activity_recycler_view_test.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_remote_view.xml" value="0.3944636678200692" />
         <entry key="app/src/main/res/layout/rv_test_item.xml" value="0.26697892271662765" />
         <entry key="app/src/main/res/layout/rv_test_two_item.xml" value="0.15625" />
       </map>
