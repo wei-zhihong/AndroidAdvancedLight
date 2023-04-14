@@ -11,10 +11,10 @@ class RecyclerViewTestTwoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(ActivityRecyclerViewTestBinding.inflate(layoutInflater).also { binding = it }.root)
-        initView()
+        initViews()
     }
 
-    private fun initView() {
+    private fun initViews() {
         val strings = ArrayList<String>()
         for (i in 0 until 20) {
             strings.add(i.toString())

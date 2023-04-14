@@ -27,11 +27,11 @@ class NotificationTestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(ActivityNotificationTestBinding.inflate(layoutInflater).also { binding = it }.root)
         notificationManager = getSystemService(NOTIFICATION_SERVICE) as NotificationManager
-        initView()
+        initViews()
     }
 
     @RequiresApi(Build.VERSION_CODES.S)
-    private fun initView() {
+    private fun initViews() {
         // setImportance设置通知重要性
         val notificationChannel =
             NotificationChannel(CHANNEL_ONE, "channelName", NotificationManager.IMPORTANCE_HIGH)

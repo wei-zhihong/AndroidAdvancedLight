@@ -11,10 +11,10 @@ class LollipopActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(ActivityLollipopBinding.inflate(layoutInflater).also { binding = it }.root)
-        initView()
+        initViews()
     }
 
-    private fun initView() {
+    private fun initViews() {
         binding.btnRvTest.setOnClickListener{
             startActivity(Intent(this, RecyclerViewTestActivity::class.java))
         }

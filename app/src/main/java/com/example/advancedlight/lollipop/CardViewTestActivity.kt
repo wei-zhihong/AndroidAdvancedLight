@@ -11,10 +11,10 @@ class CardViewTestActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(ActivityCardViewTestBinding.inflate(layoutInflater).also { binding = it }.root)
-        initView()
+        initViews()
     }
 
-    private fun initView() {
+    private fun initViews() {
         binding.sbOne.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 binding.cv.radius = progress.toFloat()
