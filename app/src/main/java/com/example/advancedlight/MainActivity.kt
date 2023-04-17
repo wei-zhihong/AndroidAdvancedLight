@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import com.example.advancedlight.databinding.ActivityMainBinding
 import com.example.advancedlight.lollipop.LollipopActivity
+import com.example.advancedlight.m.MActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -41,6 +42,9 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         binding.btnLollipop.setOnClickListener{
             startActivity(Intent(this, LollipopActivity::class.java))
+        }
+        binding.btnM.setOnClickListener {
+            startActivity(Intent(this, MActivity::class.java))
         }
     }
 }

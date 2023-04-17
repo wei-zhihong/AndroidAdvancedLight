@@ -14,6 +14,12 @@
         android:theme="@style/Theme.Design.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".m.MActivity"
+            android:exported="false" />
+        <activity
+            android:name=".m.PermissionTestActivity"
+            android:exported="false" />
+        <activity
             android:name=".lollipop.NotificationTestActivity"
             android:exported="false" />
         <activity
@@ -38,5 +44,5 @@
             </intent-filter>
         </activity>
     </application>
-
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 </manifest>
