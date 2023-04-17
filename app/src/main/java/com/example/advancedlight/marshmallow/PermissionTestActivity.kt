@@ -1,4 +1,4 @@
-package com.example.advancedlight.m
+package com.example.advancedlight.marshmallow
 
 import android.content.Intent
 import android.content.pm.PackageManager
