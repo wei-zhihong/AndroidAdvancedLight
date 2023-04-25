@@ -8,9 +8,6 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import com.example.advancedlight.databinding.ActivityMainBinding
-import com.example.advancedlight.lollipop.LollipopActivity
-import com.example.advancedlight.marshmallow.MarshmallowActivity
-import com.example.advancedlight.nougat.NougatActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -41,14 +38,8 @@ class MainActivity : AppCompatActivity() {
             title = "hello"
         }
         setSupportActionBar(toolbar)
-        binding.btnLollipop.setOnClickListener{
-            startActivity(Intent(this, LollipopActivity::class.java))
-        }
-        binding.btnM.setOnClickListener {
-            startActivity(Intent(this, MarshmallowActivity::class.java))
-        }
-        binding.btnN.setOnClickListener {
-            startActivity(Intent(this, NougatActivity::class.java))
+        binding.btnVersion.setOnClickListener {
+            startActivity(Intent(this, VersionActivity::class.java))
         }
     }
 }

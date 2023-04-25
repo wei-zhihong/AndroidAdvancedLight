@@ -12,20 +12,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_lollipop"
+        android:id="@+id/btn_version"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="android5"
+        android:text="版本特性"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
-        android:id="@+id/btn_m"
+        android:id="@+id/btn_custom_view"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="android6"
-        app:layout_constraintTop_toBottomOf="@id/btn_lollipop"
+        android:text="自定义View"
+        app:layout_constraintTop_toBottomOf="@id/btn_version"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -34,7 +34,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="android7"
-        app:layout_constraintTop_toBottomOf="@id/btn_m"
+        app:layout_constraintTop_toBottomOf="@id/btn_custom_view"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
